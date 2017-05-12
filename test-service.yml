@@ -1,0 +1,14 @@
+
+server:
+  port: 11122
+
+spring:
+  application:
+    name: test-service
+    #cloud注册中心
+    cloud:
+      consul:
+        host: localhost
+        port: 8500
+a: 1
+
